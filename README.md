@@ -5,7 +5,7 @@ A dedicated landing page for adults 50+ interested in CrossFit at CrossFit Blaze
 ## 🌐 Live Site
 
 Once deployed to GitHub Pages:
-**URL:** https://blazedbarbell.github.io/seniors-crossfit-blaze/
+**URL:** https://blazefit.github.io/seniors-crossfit-blaze/
 
 Or with custom domain:
 **URL:** https://seniors.crossfitblaze.com
@@ -42,19 +42,19 @@ The workflow (`.github/workflows/deploy-static.yml`) handles:
 - ✅ Upload site files as artifact
 - ✅ Deploy to GitHub Pages
 
-**View workflow runs:** https://github.com/blazedbarbell/seniors-crossfit-blaze/actions
+**View workflow runs:** https://github.com/blazefit/seniors-crossfit-blaze/actions
 
 ### To make changes:
 
 **Option 1: Edit directly on GitHub**
-1. Go to https://github.com/blazedbarbell/seniors-crossfit-blaze
+1. Go to https://github.com/blazefit/seniors-crossfit-blaze
 2. Click on `index.html`
 3. Click the pencil icon to edit
 4. Make changes and commit
 
 **Option 2: Local editing**
 ```bash
-git clone https://github.com/blazedbarbell/seniors-crossfit-blaze.git
+git clone https://github.com/blazefit/seniors-crossfit-blaze.git
 cd seniors-crossfit-blaze
 # Edit index.html
 git add .
@@ -93,7 +93,7 @@ To use a custom domain like `seniors.crossfitblaze.com`:
 2. Add a DNS record with your domain provider:
    - Type: CNAME
    - Name: seniors
-   - Value: blazedbarbell.github.io
+   - Value: blazefit.github.io
 
 3. Wait 5-10 minutes for DNS to propagate
 
