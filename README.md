@@ -26,12 +26,23 @@ This landing page addresses the common concern: *"Am I too old for CrossFit?"*
 
 ## 🚀 Deployment
 
-This site is deployed using **GitHub Pages**.
+This site is automatically deployed using **GitHub Actions** + **GitHub Pages**.
 
-### How it works:
+### How it works (Auto-Deployment):
 1. Push changes to the `main` branch
-2. GitHub automatically builds and deploys
-3. Site updates within 1-2 minutes
+2. GitHub Actions workflow triggers automatically
+3. Site deploys to GitHub Pages within 1-2 minutes
+4. No manual steps needed!
+
+### GitHub Actions Workflow
+
+The workflow (`.github/workflows/deploy-static.yml`) handles:
+- ✅ Checkout code on every push to `main`
+- ✅ Configure GitHub Pages
+- ✅ Upload site files as artifact
+- ✅ Deploy to GitHub Pages
+
+**View workflow runs:** https://github.com/blazedbarbell/seniors-crossfit-blaze/actions
 
 ### To make changes:
 
