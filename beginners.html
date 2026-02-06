@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrossFit for Beginners in Naples FL | New to CrossFit? Start Here | CrossFit Blaze</title>
+    <meta name="description" content="New to CrossFit? CrossFit Blaze in Naples FL welcomes all fitness levels. Learn what to expect at your first class, how workouts are scaled, and why you don't need to be fit to start.">
+    <meta name="keywords" content="crossfit beginners naples, new to crossfit naples fl, crossfit first class, beginner crossfit gym naples">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="New to CrossFit? Start Here | CrossFit Blaze Naples">
+    <meta property="og:description" content="Complete beginner's guide to CrossFit. Learn what to expect, how workouts are scaled, and why you don't need to be fit to start.">
+    
+    <!-- Schema FAQ -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Do I need to be fit to start CrossFit?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely not! Every workout at CrossFit Blaze is scaled to your current fitness level. We have members who started having never exercised, and members who are competitive athletes. Everyone works out together because we modify everything."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What should I bring to my first CrossFit class?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Just wear comfortable athletic clothes, bring a water bottle, and arrive 10 minutes early. We provide all the equipment. Leave the nerves at the door - we were all beginners once!"
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Will I get injured doing CrossFit?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "CrossFit is as safe as any physical activity when done with proper coaching. At CrossFit Blaze, every class is coach-led, we emphasize proper form over heavy weights, and we scale movements to your ability level."
+                }
+            }
+        ]
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.7;
+            color: #333;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .hero .subhead {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 30px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #f39c12;
+            color: #2c3e50;
+            padding: 16px 35px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        .cta-button:hover {
+            background: #e67e22;
+            transform: translateY(-2px);
+        }
+        
+        .section {
+            padding: 60px 20px;
+        }
+        
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+        
+        .section.alt {
+            background: #f8f9fa;
+        }
+        
+        .myth-buster {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            border-left: 5px solid #e74c3c;
+        }
+        
+        .myth-buster.truth {
+            border-left-color: #27ae60;
+        }
+        
+        .myth-buster h3 {
+            color: #e74c3c;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+        
+        .myth-buster.truth h3 {
+            color: #27ae60;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: #3498db;
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 40px;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -33px;
+            top: 30px;
+            width: 16px;
+            height: 16px;
+            background: #3498db;
+            border-radius: 50%;
+            border: 3px solid white;
+        }
+        
+        .timeline-item h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .timeline-item .time {
+            color: #3498db;
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+        
+        .faq-item {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        }
+        
+        .faq-item h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.2rem;
+        }
+        
+        .checklist {
+            list-style: none;
+        }
+        
+        .checklist li {
+            padding: 12px 0;
+            padding-left: 35px;
+            position: relative;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .checklist li:last-child {
+            border-bottom: none;
+        }
+        
+        .checklist li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #27ae60;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        
+        .final-cta {
+            padding: 80px 20px;
+            text-align: center;
+            background: #2c3e50;
+            color: white;
+        }
+        
+        .final-cta h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        
+        footer {
+            background: #1a252f;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        footer a {
+            color: #3498db;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            
+            .timeline {
+                padding-left: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <h1>New to CrossFit? You're in the Right Place.</h1>
+            <p class="subhead">
+                Every expert was once a beginner. At CrossFit Blaze, we meet you exactly where you are — and help you get where you want to be.
+            </p>
+            <a href="free-trial.html" class="cta-button">TRY 3 FREE CLASSES →</a>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <h2>🚫 Myths vs ✅ Reality</h2>
+            
+            <div class="myth-buster">
+                <h3>❌ MYTH: "I need to get in shape before starting CrossFit"</h3>
+                <p>This is like saying you need to get clean before taking a shower. CrossFit IS how you get in shape. We've had members start who couldn't do a single push-up — now they're doing handstands.</p>
+            </div>
+            
+            <div class="myth-buster truth">
+                <h3>✅ TRUTH: Every workout is scaled to YOUR level</h3>
+                <p>Can't do a pull-up? We'll give you a band or ring row. Can't run? You'll bike or row. The whiteboard shows the workout — but YOUR version is designed just for you.</p>
+            </div>
+            
+            <div class="myth-buster">
+                <h3>❌ MYTH: "CrossFit is dangerous and causes injuries"</h3>
+                <p>Any physical activity can cause injury if done incorrectly. That's why EVERY class at CrossFit Blaze is coach-led. We teach proper form, correct movement patterns, and never push you beyond safe limits.</p>
+            </div>
+            
+            <div class="myth-buster truth">
+                <h3>✅ TRUTH: Our coaches have been doing this since 2009</h3>
+                <p>Owner-coached gym with over 15 years of experience. We've seen it all, trained every body type, and know how to keep you safe while getting results.</p>
+            </div>
+            
+            <div class="myth-buster">
+                <h3>❌ MYTH: "Everyone will be staring at me"</h3>
+                <p>Trust us — everyone is too focused on their own workout to notice anyone else. And the only looks you'll get are high-fives and encouragement. That's our culture.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section alt">
+        <div class="container">
+            <h2>Your First Class: What to Expect</h2>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="time">10 MINUTES BEFORE</div>
+                    <h3>Arrive Early</h3>
+                    <p>Show up 10 minutes before class. A coach will greet you, show you around, and ask about any injuries or concerns. We'll explain how the class works.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="time">0-15 MINUTES</div>
+                    <h3>Warm-Up</h3>
+                    <p>Every class starts with a group warm-up. Light movement, stretching, and mobility work to prepare your body. Nothing crazy — just getting loose.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="time">15-30 MINUTES</div>
+                    <h3>Skill/Strength Work</h3>
+                    <p>We'll practice the movements in today's workout. The coach will demonstrate, then walk around helping everyone with form. Take your time here — this is where you learn.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="time">30-50 MINUTES</div>
+                    <h3>The Workout (WOD)</h3>
+                    <p>Time to work! The "Workout of the Day" is usually 10-20 minutes of effort. Go at YOUR pace. The coach will suggest weights and modifications specifically for you.</p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="time">50-60 MINUTES</div>
+                    <h3>Cool Down & High Fives</h3>
+                    <p>Stretching, breathing, and celebrating that you showed up. You did it! Members will likely introduce themselves and welcome you to the community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <div class="container">
+            <h2>What to Bring (Hint: Not Much)</h2>
+            <ul class="checklist">
+                <li><strong>Comfortable athletic clothes</strong> — Shorts/leggings and a t-shirt work great</li>
+                <li><strong>Athletic shoes</strong> — Running shoes are fine to start (we'll talk lifting shoes later)</li>
+                <li><strong>Water bottle</strong> — Stay hydrated! We have a water fountain</li>
+                <li><strong>A positive attitude</strong> — Leave the nerves at home, we've got you</li>
+                <li><strong>Nothing else</strong> — We provide all equipment, chalk, and encouragement</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="section alt">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <h3>How often should I come as a beginner?</h3>
+                <p>Start with 2-3 classes per week. Your body needs time to adapt. As you get stronger and more comfortable, you can increase to 4-5 times per week. Listen to your body — soreness is normal, pain is not.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>I'm over 50 — is CrossFit right for me?</h3>
+                <p>Absolutely! We have a dedicated <a href="index.html" style="color: #3498db;">seniors program</a> and members well into their 60s and 70s. CrossFit is about functional fitness — the movements we do help you in everyday life: picking things up, climbing stairs, playing with grandkids.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>What if I can't do the workout?</h3>
+                <p>You CAN do the workout — just YOUR version of it. Every movement has a scaled option. Can't do a push-up? Do it on your knees. Can't run? Bike. Can't lift the prescribed weight? Use lighter weight or even PVC pipe. We scale everything.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>How much does it cost after the free trial?</h3>
+                <p>We have options for every budget: $20 drop-in, class packs starting at $45, and unlimited memberships. After your 3 free classes, a coach will help you find the right fit. No pressure — we want this to work for YOU.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h3>What makes CrossFit Blaze different from other gyms?</h3>
+                <p>Three things: (1) Owner-coached since 2009 — we're not a franchise, we're a family. (2) Small class sizes — you get real attention, not just a number. (3) True community — members become friends, and everyone celebrates your wins.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="final-cta">
+        <div class="container">
+            <h2>Ready to Start? Your First 3 Classes Are FREE.</h2>
+            <p style="font-size: 1.1rem; margin-bottom: 30px; opacity: 0.9;">
+                No credit card. No commitment. No judgment.<br>
+                Just show up and see what you're capable of.
+            </p>
+            <a href="free-trial.html" class="cta-button">CLAIM MY 3 FREE CLASSES →</a>
+            <p style="margin-top: 30px; font-size: 1.1rem;">
+                <strong>CrossFit Blaze</strong><br>
+                6563 Taylor Rd #8, Naples, FL 34109<br>
+                <a href="tel:2392605242" style="color: #3498db;">(239) 260-5242</a>
+            </p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>© 2026 CrossFit Blaze. All rights reserved.</p>
+        <p><a href="https://crossfitblaze.com">crossfitblaze.com</a> | <a href="free-trial.html">Free Trial</a> | <a href="index.html">Seniors Program</a></p>
+    </footer>
+</body>
+</html>
